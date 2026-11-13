@@ -31,8 +31,12 @@ if(flog){
     cout<<"the number is not prime"<<endl;
 }
 
+<<<<<<< HEAD
 
 cout<<"==============================="<<endl;
 
     return 0;
+=======
+return 0;
+>>>>>>> 80fe65aa77439a74e489141e7fda04c71ad0423b
 }
