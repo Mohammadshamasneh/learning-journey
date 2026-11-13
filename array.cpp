@@ -1,42 +1,18 @@
-#include<iostream>
+#include <iostream>
+#include<algorithm>
+#include<cctype>
 
-using namespace std;
+using namespace std;//the secound atttempt\\
 
 int main()
 {
-int n=0 ,i=2;
-cout<<"app to know the number is the prime or not"<<endl;
-cout<<"pleas enter the number : ";
-cin>>n;
-bool flog=true;
-
-while(i<n)
+int Array []={1,2,3,4,5,6};
+int SizeArray =size(Array);
+cout<<SizeArray<<endl;cout<<"===================\n";
+for(int  i =1; i<=SizeArray;i+=2) 
 {
-    if(n%i==0)
-    {
-        flog=false;
-        break;
-    }
-    i++;
-}
-if(n%2==0)
-{
-
-    flog=false;
-
-}
-if(flog){
-    cout<<"the number is prime"<<endl;
-}else{
-    cout<<"the number is not prime"<<endl;
+    cout<<i<<endl;
 }
 
-<<<<<<< HEAD
-
-cout<<"==============================="<<endl;
-
-    return 0;
-=======
 return 0;
->>>>>>> 80fe65aa77439a74e489141e7fda04c71ad0423b
 }
