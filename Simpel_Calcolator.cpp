@@ -6,7 +6,7 @@ int main()
     double result,num;
     char operation;
 
-    cout<<"=====simbel calculater===="<<endl;
+    cout<<"=====simbel calculator===="<<endl;
     cout<<"enter the two numbers"<<endl;
         cout<<"enter the first number : ";
         cin>>result;
